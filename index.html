@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume - Patel Saurabh Manishbhai</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #f4f4f9;
+        }
+
+        .resume-container {
+            background: #fff;
+            padding: 40px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-top: 8px solid #2c3e50;
+        }
+
+        header {
+            text-align: center;
+            border-bottom: 2px solid #eee;
+            padding-bottom: 20px;
+            margin-bottom: 20px;
+        }
+
+        header h1 {
+            margin: 0;
+            color: #2c3e50;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .contact-info {
+            margin-top: 10px;
+            font-size: 0.9em;
+        }
+
+        section {
+            margin-bottom: 25px;
+        }
+
+        h2 {
+            font-size: 1.2em;
+            color: #2c3e50;
+            border-left: 4px solid #2c3e50;
+            padding-left: 10px;
+            text-transform: uppercase;
+            margin-bottom: 15px;
+        }
+
+        .job-title {
+            font-weight: bold;
+            color: #34495e;
+        }
+
+        .date {
+            float: right;
+            font-style: italic;
+            color: #7f8c8d;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+
+        th,
+        td {
+            text-align: left;
+            padding: 10px;
+            border-bottom: 1px solid #eee;
+        }
+
+        th {
+            background-color: #f8f9fa;
+            color: #2c3e50;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        .personal-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 10px;
+            font-size: 0.9em;
+        }
+
+        .footer {
+            margin-top: 30px;
+            font-size: 0.85em;
+            border-top: 1px solid #eee;
+            padding-top: 10px;
+        }
+
+        .save-btn {
+            position: fixed;
+            top: 24px;
+            right: 24px;
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            padding: 12px 24px;
+            background: linear-gradient(135deg, #2c3e50, #3498db);
+            color: #fff;
+            border: none;
+            border-radius: 50px;
+            font-size: 0.95em;
+            font-weight: 600;
+            letter-spacing: 0.5px;
+            cursor: pointer;
+            box-shadow: 0 4px 15px rgba(44, 62, 80, 0.35);
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+            z-index: 1000;
+        }
+
+        .save-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(44, 62, 80, 0.5);
+        }
+
+        .save-btn:active {
+            transform: translateY(0);
+            box-shadow: 0 2px 10px rgba(44, 62, 80, 0.3);
+        }
+
+        .save-btn svg {
+            width: 18px;
+            height: 18px;
+            fill: #fff;
+        }
+
+        @media print {
+            @page {
+                size: A4;
+                margin: 0;
+            }
+
+            .save-btn {
+                display: none !important;
+            }
+
+            body {
+                background: #fff;
+                margin: 0;
+                padding: 0;
+                -webkit-print-color-adjust: exact;
+                print-color-adjust: exact;
+            }
+
+            .resume-container {
+                box-shadow: none;
+                border-top: 8px solid #2c3e50;
+                padding: 30px 40px;
+                max-width: 100%;
+            }
+
+            section {
+                margin-bottom: 14px;
+                page-break-inside: avoid;
+            }
+
+            h2 {
+                margin-bottom: 8px;
+            }
+
+            header {
+                padding-bottom: 12px;
+                margin-bottom: 14px;
+            }
+
+            table th,
+            table td {
+                padding: 6px 10px;
+            }
+
+            ul {
+                margin-top: 4px;
+                margin-bottom: 4px;
+            }
+
+            .footer {
+                margin-top: 16px;
+                padding-top: 8px;
+            }
+
+            .personal-grid {
+                gap: 6px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="resume-container">
+        <header>
+            <h1>Patel Saurabh Manishbhai </h1>
+            <div class="contact-info">
+                Phone: 8511918746 | Email: patelsaurabh7070@gmail.com <br>
+                Address: Biliputra Society Near Hastinapur, Gayatri Mandir, Himmatnagar, Sabarkantha - 383001
+            </div>
+        </header>
+
+        <section>
+            <h2>Work Experience </h2>
+            <div>
+                <span class="job-title">Maths and Science Teacher</span>
+                <span class="date">3 Years Experience </span>
+                <p><strong>Rotary Saraswati Vidhya Mandir, Himatnagar</strong> </p>
+                <ul>
+                    <!-- <li>Provided high-quality instruction in core Science and Mathematics subjects.   </li> -->
+                    <li>Utilized strong communication and adaptability skills to engage with students.
+                    </li>
+                    <li>Applied critical thinking and negotiation abilities to manage classroom environments.
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section>
+            <h2>Education </h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Standard </th>
+                        <th>Board/University </th>
+                        <th>Year </th>
+                        <th>Percent/Grade </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>MSC </td>
+                        <td>HNGU </td>
+                        <td>2023 </td>
+                        <td>63.30% </td>
+                    </tr>
+                    <tr>
+                        <td>B.Ed </td>
+                        <td>HNGU </td>
+                        <td>2021 </td>
+                        <td>87.0% </td>
+                    </tr>
+                    <tr>
+                        <td>B.Sc </td>
+                        <td>HNGU </td>
+                        <td>2018 </td>
+                        <td>56.12% </td>
+                    </tr>
+                    <tr>
+                        <td>H.S.C. </td>
+                        <td>G.H.S.E.B. </td>
+                        <td>2014 </td>
+                        <td>52.04% </td>
+                    </tr>
+                    <tr>
+                        <td>S.S.C. </td>
+                        <td>G.S.E.B. </td>
+                        <td>2012 </td>
+                        <td>57.08% </td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section>
+            <h2>Skills & Certifications </h2>
+            <ul>
+                <li><strong>Technical:</strong> CCC (Course on Computer Concepts) </li>
+                <li><strong>Interpersonal:</strong> Excellent Communication Skills </li>
+                <!-- <li><strong>Professional:</strong> Adaptability, Morality for work, Critical Thinking, Quick Learner, -->
+                <!-- and Negotiation </li> -->
+            </ul>
+        </section>
+
+        <section>
+            <h2>Personal Details</h2>
+            <div class="personal-grid">
+                <div><strong>Date of Birth:</strong> 22/10/1996 </div>
+                <div><strong>Gender:</strong> Male </div>
+                <div><strong>Marital Status:</strong> Married </div>
+                <div><strong>Languages:</strong> Gujarati, Hindi, English </div>
+                <div><strong>Hobby:</strong> Reading and Playing </div>
+            </div>
+        </section>
+
+        <div class="footer">
+            <p><strong>Declaration:</strong> I confirm that all information above is true and accurate. </p>
+            <p><em>Patel Saurabh Manishbhai</em> </p>
+        </div>
+    </div>
+
+    <button class="save-btn" id="savePdfBtn" onclick="window.print()" title="Save as PDF">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path d="M5 20h14v-2H5v2zm7-18L5.33 9h3.67v4h4V9h3.67L12 2z" />
+        </svg>
+        Save as PDF
+    </button>
+
+</body>
+
+</html>
